@@ -1,0 +1,940 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #26336e;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  color: #ef3b3f;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+a {
+  color: #26336e;
+  text-decoration: none;
+  transition: all 0.3s linear;
+  font-family: "Poppins", sans-serif;
+}
+
+a:hover {
+  color: #ef3b3f;
+}
+
+section {
+  padding: 40px 0;
+  position: relative;
+}
+
+h2.main-heading {
+  font-size: 40px;
+}
+
+header.header-wrapper {
+  height: 143px;
+}
+
+header.header-wrapper .header-inner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background: #ffff;
+}
+
+.header-wrapper .top-header {
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1;
+}
+
+.header-wrapper .bottom-header {
+  background: #26336e;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header-wrapper .top-header .navbar-nav .nav-item .nav-link {
+  color: #26336e;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+
+
+.header-wrapper .bottom-header .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.banner-wrapper .carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  left: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.banner-wrapper .carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid #26336e;
+}
+
+.banner-wrapper .carousel-indicators .active {
+  background: #26336e;
+}
+
+.header-wrapper .top-header .navbar-nav .nav-item:last-child .nav-link {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin-left: 22px;
+}
+
+.header-wrapper .top-header .navbar-nav .nav-item:last-child .nav-link svg:first-child {
+  margin-right: 5px;
+}
+
+.social-media {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 2;
+}
+
+.social-media ul li a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-wrapper .top-header .navbar-nav .nav-item:last-child .nav-link svg:last-child {
+  margin-left: 10px;
+}
+
+.banner-wrapper {
+  padding-bottom: 30px;
+}
+
+span.sub-text {
+  color: #26336e;
+  font-family: Poppins;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+}
+
+p.text b {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p.text {
+  color: #000;
+}
+
+section.school-sports-olympia p {
+  color: #000;
+}
+
+section.school-sports-olympia p a {
+  display: block;
+  text-decoration-line: underline;
+  color: #000;
+}
+
+section.aboutus .btn-group-vertical>.btn,
+section.aboutus .btn-group>.btn,
+section.school-sports-olympia .btn-group-vertical>.btn,
+section.school-sports-olympia .btn-group>.btn {
+  flex: inherit !important;
+  margin-right: 30px;
+  border-radius: 5px !important;
+  padding: 8px 35px;
+}
+
+section.target-reach {
+  background-image: url(../images/target-reach.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 30px 0;
+}
+
+section.aboutus .btn-group-vertical>.btn,
+section.aboutus .btn-group>.btn {
+  width: 302px;
+}
+
+section.target-reach strong {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: block;
+}
+
+section.target-reach h4 {
+  color: #fff;
+  font-family: Poppins;
+}
+
+.shadow-heading {
+  color: rgba(0, 0, 0, 0.05);
+  font-family: Lora;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
+
+section.aboutus h6 {
+  font-family: Poppins;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+section.aboutus ul li {
+  color: #26336e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+section.aboutus ul {
+  margin: inherit;
+  padding: inherit;
+  list-style: disc;
+  padding: 0 12px;
+}
+
+section.column-left .col-md-6:last-child {
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+section.column-right .col-md-6:first-child {
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.sub-heading span {
+  border-bottom: 1px solid #ef3b3f;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.exam-criteria h6 {
+  color: #000;
+  font-family: Lora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.SSO-Procedure {
+  background-image: url(../images/SSO-Procedure.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.inner-sso-procedure .container {
+  background: rgba(255, 255, 255, 0.30);
+  backdrop-filter: blur(4px);
+  padding: 40px;
+  padding-bottom: 20px;
+}
+
+.inner-sso-procedure .icon-box h6 {
+  font-weight: 500;
+}
+
+.inner-sso-procedure .icon-box p {
+  color: rgba(255, 255, 255, 0.80);
+}
+
+.inner-sso-procedure button {
+  width: 100%;
+  height: 47px;
+  border-radius: 5px;
+}
+
+section.testimonials {
+  margin-top: 30px;
+  background-image: url(../images/testimonials-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.testimonials .box {
+  border-radius: 10px;
+  background: #FFF;
+  padding: 0 30px;
+  padding-bottom: 15px;
+}
+
+span.autor-name {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+p.autor-subTilte {
+  color: #000;
+  font-size: 12px;
+}
+
+div#testimonials-slider {
+  padding-top: 150px;
+}
+
+section.testimonials .top-heading {
+  position: relative;
+  top:100px;
+}
+
+section.testimonials .top-heading .shadow-heading {
+  top: -20px;
+}
+
+section.testimonials .item {
+  padding-top: 35px;
+}
+
+section.testimonials .item .top {
+  position: relative;
+  top: -35px;
+  align-items: center;
+}
+
+section.testimonials .owl-nav {
+  display: block !important;
+  margin-top: 40px;
+  margin-bottom: 80px;
+
+}
+
+section.testimonials .owl-nav button {
+  background: rgba(38, 51, 110, 1) !important;
+  width: 41px;
+  height: 41px;
+  border-radius: 50% !important;
+  color: #fff !important;
+
+}
+
+section.testimonials .owl-nav button span {
+  font-size: 20px;
+
+}
+
+section.testimonials button.owl-prev {
+  background-color: rgba(38, 51, 110, 0.5) !important;
+}
+
+.Contactus {
+  background: #FFF;
+  box-shadow: 0px 0.878px 13.167px rgba(0, 0, 0, 0.10);
+  border-radius: 20px;
+  margin-bottom: -280px;
+}
+
+.Contactus h3 {
+  color: #26336E;
+  font-weight: 600;
+}
+
+
+
+
+.contact-form {
+  padding: 0px 40px;
+}
+
+.contact-form form {
+  padding: 0 10px;
+}
+
+.contact-form li.breadcrumb-item a {
+  color: rgba(0, 0, 0, 0.60);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-form form .form-control {
+  border-radius: 5px;
+  border: 0.878px solid rgba(0, 0, 0, 0.30);
+  background: #FFF;
+  color: rgba(0, 0, 0, 0.60);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 43.889px;
+
+}
+
+.contact-form form textarea#comment {
+  height: 100.944px;
+}
+
+.contact-form form button {
+  border-radius: 5px;
+  background: #26336E;
+  border: 0;
+  height: 43.889px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Contactus img.img-fluid {
+  height: 500px;
+}
+
+.btn-group button a {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+.Register-from .select2-container .select2-selection--single{
+  height: 43px;}
+  
+  .Register-from .select2-container--default .select2-selection--single .select2-selection__rendered{
+      line-height: 41px;
+  }
+  .Register-from .select2-container--default .select2-selection--single .select2-selection__arrow{height:41px}
+
+
+  #toast-container > .toast-success{
+    background-color: #07a95e;
+}
+
+#toast-container > .toast-error{
+  background-color: #ff0000;
+
+  
+}
+.sso_gap{
+  height: 100vh;
+}
+  
+footer.footer-wrapper.home-footer {
+  padding-top: 350px;
+}
+
+
+
+footer.footer-wrapper {
+  background: #EF3B3F;
+  padding-top: 60px;
+}
+
+footer.footer-wrapper .copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 20px;
+}
+
+footer.footer-wrapper .copyright p {
+  color: rgba(255, 255, 255, 0.40);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+
+footer.footer-wrapper .menu-list h6 {
+  color: rgba(255, 255, 255, 0.90);
+  margin-bottom: 6px;
+}
+
+footer.footer-wrapper .menu-list ul li a {
+  color: rgba(255, 255, 255, 0.70);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+  margin-bottom: 7px;
+}
+
+footer.footer-wrapper .contact-detail ul li a {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+footer.footer-wrapper .contact-detail ul li a {
+  color: rgba(255, 255, 255, 0.70);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer.footer-wrapper .social-icons ul li:not(:last-child) {
+  margin-right: 15px;
+}
+
+footer.footer-wrapper .menu-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer.footer-wrapper .menu-list ul li a {
+    text-decoration: none;
+}
+
+footer.footer-wrapper .contact-detail ul li a {
+    text-decoration: none;
+}
+
+
+  .arrow-list ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 90px;
+  position: relative;
+  top: 70px;
+}
+
+.inner-sso-procedure .arrow-list ul li {
+  width: 33.33333333333333%;
+}
+
+.inner-sso-procedure .arrow-list ul li:first-child {
+  padding-left: 115px;
+}
+
+.inner-sso-procedure .arrow-list ul li:nth-child(2) {
+  padding-left: 50px;
+}
+
+.header-wrapper .top-header span.skew-bg {
+  background: linear-gradient(90deg, #ef3b3f 10.74%, #26336e 100%);
+  position: absolute;
+  top: 0;
+  width: 315px;
+  height:91px;
+  transform: skew(-34deg, 0);
+  z-index: -1;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(12px);
+}
+
+.header-wrapper .top-header .navbar-nav .nav-item:last-child {
+  margin-left: 20px;
+}
+.Register-wrapper footer.footer-wrapper {
+  padding-top: 60px;
+}
+
+
+
+section.Register-from .shadow-heading {
+  top: -20px;
+}
+
+section.Register-from  .form-label {
+  width: 200px;
+  color: #2e2d2d;
+  margin-right: 10px;
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+section.Register-from   .form-control {
+  color: #b5b5b5;
+  border: none;
+  background: #f6f6f6;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+section.Register-from button.btn {
+  width: 100px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0px;
+  background: #26336E;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  margin-top: 15px;
+}
+textarea#description {
+  height: 150px;
+  background: transparent;
+  border: 1px solid #ced4da;
+}
+
+section.gallery-wrap .box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  /* height: 350px; */
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 10px;
+}
+section.gallery-wrap .box .image-wrap img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+section.winner-wrap button.w-100.btn {
+  background-color: #26336E;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+section.gallery-wrap .box .content {
+  text-align: center;
+}
+
+.contactus-wrap .Contactus {
+  margin-bottom: 0;
+}
+@media(max-width:1199px){
+  .header-wrapper .top-header .navbar-nav .nav-item .nav-link {
+    font-size: 12px;
+}
+.header-wrapper .top-header .navbar-nav .nav-item:last-child .nav-link {
+  font-size: 12px;
+  margin-left: 15px;
+}
+.inner-sso-procedure .arrow-list ul li svg {
+  width: 100px;
+}
+.inner-sso-procedure .arrow-list ul li:first-child {
+  padding-left: 75px;
+}
+.inner-sso-procedure .arrow-list ul li:nth-child(2) {
+  padding-left: 35px;
+}
+}
+
+@media(max-width:991px){
+  header.header-wrapper .header-inner {
+    display: none;
+}
+header.header-wrapper {
+  height: 90px;
+}
+button.navbar-toggler {
+  background: #26336e;
+}
+section.aboutus .ps-5 {
+  padding-left: 2rem !important;
+}
+
+section.aboutus .px-5 {
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+}
+.offcanvas.offcanvas-end {
+  background: #fff !important;
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.offcanvas.offcanvas-end button.btn-close.btn-close-white {
+  background-color: #fff !important;
+  opacity: 1;
+  filter: none;
+}
+
+.offcanvas-body a.nav-link {
+  color: #26336e !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.navbar-nav .dropdown-menu  a.dropdown-item{
+  color: #26336e !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+section.aboutus .btn-group-vertical>.btn, 
+section.aboutus .btn-group>.btn, 
+section.school-sports-olympia .btn-group-vertical>.btn,
+ section.school-sports-olympia .btn-group>.btn {
+  margin-right: 15px;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+.inner-sso-procedure button {
+  font-size: 14px;
+  }
+section.column-left .col-md-6:last-child {
+  padding-left: 40px;
+  padding-right: 80px;
+}
+section.column-right .col-md-6:first-child {
+  padding-left: 80px;
+  padding-right: 40px;
+}
+.inner-sso-procedure .arrow-list {
+  display: none;
+}
+section.target-reach strong {
+  font-size: 40px;
+}
+section.target-reach h4 {
+  font-size: 12px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+h2.main-heading {
+  font-size: 30px;
+}
+
+.shadow-heading {
+  font-size: 40px;
+}
+h2.sub-heading span {
+  padding-bottom: 5px;
+}
+.exam-criteria h6 {
+  font-size: 18px;
+}
+.Contactus img.img-fluid {
+  height: auto;
+}
+.offcanvas-body a.nav-link {
+  position: relative;
+}
+.dropdown-toggle::after {
+  position: absolute;
+  top: 18px;
+  right: 0;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 99;
+}
+.offcanvas-header,
+.no-banner .mobile-nav,
+.mobile-nav.sticky {
+  box-shadow: 0 0 5px #ccc;
+}
+.contactus-wrap .Contactus {
+  margin-top: 40px;
+}
+}
+
+@media(max-width:767px){
+  section.aboutus .btn-group-vertical>.btn, section.aboutus .btn-group>.btn,
+   section.school-sports-olympia .btn-group-vertical>.btn, 
+   section.school-sports-olympia .btn-group>.btn {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.inner-sso-procedure button {
+  margin-bottom: 15px;
+}
+section.column-right .col-md-6:first-child,
+section.column-left .col-md-6:last-child {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.shadow-heading {
+  font-size: 35px;
+  top: 25px;
+}
+.btn-group {
+  margin-bottom: 0 !important;
+}
+section.column-left img.img-fluid{
+  margin-bottom: 30px;
+}
+section.column-right img.img-fluid {
+  margin-bottom: 30px;
+}
+.btn-group {
+  display: flex;
+  flex-direction: column;
+}
+section.target-reach{
+  margin: 0;
+}
+
+section.testimonials{
+  padding-top: 0;
+  margin: 0;
+}
+
+section.column-left,
+section.column-right{
+  padding: 40px 12px;
+}
+
+ section.column-right .row {
+  flex-direction: column-reverse;
+}
+.SSO-Procedure {
+  margin-top: 30px;
+}
+
+section.testimonials .owl-nav {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+footer.footer-wrapper .col-6 {
+  margin-bottom: 30px;
+}
+footer.footer-wrapper .col-12 .contact-detail {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+footer.footer-wrapper .social-icons {
+  margin-bottom: 30px;
+}
+.exam-criteria {
+  margin-bottom: 30px;
+}
+
+}

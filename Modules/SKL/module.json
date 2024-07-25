@@ -1,0 +1,13 @@
+{
+    "name": "SKL",
+    "alias": "skl",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SKL\\Providers\\SKLServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
